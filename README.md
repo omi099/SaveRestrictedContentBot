@@ -2,9 +2,9 @@
   <b>Save restricted content Bot</b>
 </h1> 
 
-Contact: [Telegram](https://t.me/MaheshChauhan)
+Contact: [Telegram](https://t.me/kkara9009)
 
-A stable telegram bot to get restricted messages with custom thumbnail support , made by Mahesh Chauhan. 
+A stable telegram bot to get restricted messages with custom thumbnail support...
 
 - works for both public and private chats
 - Custom thumbnail support for Pvt medias
@@ -25,14 +25,6 @@ A stable telegram bot to get restricted messages with custom thumbnail support ,
 - `AUTH` - Owner user id
 - `FORCESUB` - Public channel username without '@'. Don't forget to add bot in channel as administrator. 
 
-# Get API & PYROGRAM string session from:
- 
-API: [API scrapper Bot](https://t.me/USETGSBOT) or [Telegram.org](https://my.telegram.org/auth)
-
-PYROGRAM SESSION: [SessionGen Bot](https://t.me/SessionStringGeneratorRobot) or [![Run on Repl.it](https://replit.com/badge/github/vasusen-code/saverestrictedcontentbot)](https://replit.com/@levinalab/Session-Generator#main.py)
-
-BOT TOKEN: @Botfather on telegram
-
 # Deploy
 
 Deploy on `VPS`
@@ -49,10 +41,6 @@ nano docker-compose.yml
 sudo docker-compose up --build
 ```
 
-The hard Way:
-
-- Fill vars in your fork in [this](https://github.com/vasusen-code/SaveRestrictedContentBot/blob/master/main/__init__.py) file as shown in this [picture](https://t.me/MaheshChauhan/36)
-- enter all the below commands
 
 ```
 sudo apt update
