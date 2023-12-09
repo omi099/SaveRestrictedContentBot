@@ -1,5 +1,3 @@
-#Github.com-Vasusen-code
-
 import asyncio, time, os
 
 from .. import bot as Drone
