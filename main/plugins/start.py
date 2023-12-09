@@ -1,5 +1,3 @@
-#Github.com/Vasusen-code
-
 import os
 from .. import bot as Drone
 from telethon import events, Button
@@ -44,6 +42,6 @@ async def remt(event):
   
 @Drone.on(events.NewMessage(incoming=True, pattern=f"{S}"))
 async def start(event):
-    text = "Send me Link of any message to clone it here, For private channel message, send invite link first.\n\n**SUPPORT:** @TeamDrone"
+    text = "Send me Link of any message to clone it here, For private channel message, send invite link first.\n\n**SUPPORT:** @kkara9009"
     await start_srb(event, text)
     
