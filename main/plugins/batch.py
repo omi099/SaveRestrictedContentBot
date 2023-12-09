@@ -1,10 +1,3 @@
-#Tg:MaheshChauhan/DroneBots
-#Github.com/Vasusen-code
-
-"""
-Plugin for both public & private channels!
-"""
-
 import time, os, asyncio
 
 from .. import bot as Drone
