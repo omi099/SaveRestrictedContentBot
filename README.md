@@ -46,7 +46,7 @@ sudo docker-compose up --build
 sudo apt update
 sudo apt install ffmpeg git python3-pip
 git clone https://github.com/kkara9009/SaveRestrictedContentBot
-cd saverestrictedcontentbot 
+cd SaveRestrictedContentBot
 pip3 install -r requirements.txt
 python3 -m main
 ```
