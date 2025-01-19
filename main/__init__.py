@@ -21,13 +21,15 @@ AUTH = config("AUTH", default=None, cast=int)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
-userbot = Client("saverestricted", session_string=SESSION, api_hash=API_HASH, api_id=API_ID) 
+userbot = Client("saverestricted", api_hash=API_HASH, api_id=API_ID) 
 
-try:
-    userbot.start()
-except BaseException:
-    print("Userbot Error ! Have you added SESSION while deploying??")
-    sys.exit(1)
+# try:
+#     userbot.start()
+# except BaseException:
+#     print("Userbot Error ! Have you added SESSION while deploying??")
+#     sys.exit(1)
+
+userbot.start()
 
 Bot = Client(
     "SaveRestricted",
